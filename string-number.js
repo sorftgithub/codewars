@@ -7,7 +7,7 @@
 
 // }
 
-let stringToNumber = (str) => (Number (str))
+let stringToNumber = (str) => Number (str)
 
 
     console.log(stringToNumber("1234"),1234)
