@@ -10,6 +10,7 @@ function makeNegative(num) {
     }
 }
 
+// let makeNegative = (num) => num <= 0 ? num : -num 
 
 console.log (makeNegative (42), -42);
 console.log (makeNegative (-42), -42);
