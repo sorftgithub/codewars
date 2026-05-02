@@ -1,0 +1,9 @@
+// Create a function that accepts a parameter representing a
+// name and returns the message: "Hello, <name> how are you doing today?".
+
+function greet(name){
+    return `Hello, ${name} how are ypu doing today?`
+}
+
+    console.log(greet("Ryan"), "Hello, Ryan how are you doing today?");
+    console.log(greet("Shingles"),  "Hello, Shingles how are you doing today?");
