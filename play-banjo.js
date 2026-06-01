@@ -4,11 +4,13 @@
 // The function takes a name as its only argument, and returns one of the following strings:
 
 function areYouPlayingBanjo(name){
-    if(name[0].toUpperCase()==="R"){
-        return `${name} plays banjo`
-    }else{
-        return `${name} does not play banjo`
-    }
+//     if(name[0].toUpperCase()==="R"){
+//         return `${name} plays banjo`
+//     }else{
+//         return `${name} does not play banjo`
+//     }
+
+return name[0].toLowerCase() === 'r' ? `${name} plays banjo` : `${name} does not play banjo`
 }
 
 

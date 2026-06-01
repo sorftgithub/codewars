@@ -3,7 +3,7 @@
 // Be careful, there shouldn't be a space at the beginning or the end of the sentence!
 
 function smash(words){
-    return words.join(" ")
+    return words.join(" ");
 }
 
 
