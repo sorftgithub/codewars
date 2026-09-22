@@ -18,7 +18,6 @@ Examples (Input --> Output)
 //p: pass in numbers
 //R: must be a string of 4 numbers
 //E:
-
 function validatePin(pin) {
   //return true or false
   var n = pin.length;
